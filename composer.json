@@ -14,6 +14,11 @@
             "name": "Team",
             "homepage": "https://github.com/lis-dev/nova-poshta-api-2/graphs/contributors",
             "role": "Contributors"
+        },
+        {
+            "name": "Upyr Maxim",
+            "homepage": "https://github.com/UpyrMaxim/nova-poshta-api",
+            "role": "Contributors"
         }
     ],
     "require": {
