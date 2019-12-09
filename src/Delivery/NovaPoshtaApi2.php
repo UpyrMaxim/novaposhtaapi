@@ -1,6 +1,6 @@
 <?php
 
-namespace LisDev\Delivery;
+namespace Delivery;
 
 /**
  * Nova Poshta API Class.
@@ -493,7 +493,7 @@ class NovaPoshtaApi2
     public function getArea($findByString = '', $ref = '')
     {
         // Load areas list from file
-        empty($this->areas) and $this->areas = include dirname(__FILE__).'/NovaPoshtaApi2Areas.php';
+        empty($this->areas) and $this->areas = include dirname(__FILE__) . '/NovaPoshtaApi2Areas.php';
         $data = $this->findArea($this->areas, $findByString, $ref);
         // Error
         empty($data) and $error = 'Area was not found';
