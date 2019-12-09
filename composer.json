@@ -1,5 +1,5 @@
 {
-    "name": "UpyrMaxim/nova-poshta-api",
+    "name": "upyrmaxim/nova-poshta-api",
     "description": "PHP class for API 2.0 ukrainian delivery company \"Nova Poshta\"",
     "keywords": ["delivery", "delivery service", "nova poshta", "nova poshta api"],
     "homepage": "https://github.com/UpyrMaxim/nova-poshta-api",
