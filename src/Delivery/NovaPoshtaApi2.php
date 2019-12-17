@@ -417,6 +417,7 @@ class NovaPoshtaApi2
                 }
             }
         }
+        $error = "";
         // Error
         (!$data) and $error = 'Warehouse was not found';
         // Return data in same format like NovaPoshta API
@@ -496,6 +497,7 @@ class NovaPoshtaApi2
         empty($this->areas) and $this->areas = include dirname(__FILE__) . '/NovaPoshtaApi2Areas.php';
         $data = $this->findArea($this->areas, $findByString, $ref);
         // Error
+        $error = "";
         empty($data) and $error = 'Area was not found';
         // Return data in same format like NovaPoshta API
         return $this->prepare(
@@ -569,6 +571,7 @@ class NovaPoshtaApi2
                 : $cities['data'][0];
         }
         // Error
+        $error = "";
         (!$data) and $error = 'City was not found';
         // Return data in same format like NovaPoshta API
         return $this->prepare(
